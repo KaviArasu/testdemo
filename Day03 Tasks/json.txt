@@ -1,0 +1,20 @@
+for(var i=0;i<data.length;i++){
+
+        console.log(data[i].name+""+data[i].capital);
+}
+
+
+
+for (const prop in data) {
+        console.log(data + ':' + data[prop]);
+      }
+
+
+for(var datas of data){
+        console.log(datas);
+    }
+
+
+let numCallbackRuns = 0;
+    data.forEach((element) => {numCallbackRuns++;});
+        console.log(numCallbackRuns);

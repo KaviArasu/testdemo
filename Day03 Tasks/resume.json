@@ -1,0 +1,50 @@
+{
+    "basics": {
+      "name": "S KaviArasu",
+      "label": "Full Stack Developer",
+      "image": "",
+      "email": "KaviArasu_NS@icloud.com",
+      "phone": "(91) 9994483473",
+      "summary": "A summary of S KaviArasu",
+      "location": {
+        "address": "6/21 Nallur, Nallur Main Street, Kangeyam Road",
+        "postalCode": "641606",
+        "city": "Tiruppur",
+        "countryCode": "IN",
+        "region": "TamilNadu"
+      },
+      "profiles": [{
+        "network": "Twitter",
+        "username": "KaviArasu_NS",
+        "url": "https://twitter.com/KaviArasu_NS"
+      }]
+    },
+    "work": [{
+      "name": "Evershine Apparels",
+      "position": "Manager",
+      "url": "evershineapparels.com",
+      "startDate": "01-12-2019",
+      "endDate": "30-12-2021"
+    }],
+    "education": [{
+      "institution": "PSG College of Arts and Science",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "24-06-2013",
+      "endDate": "04-05-2016",
+      "courses": [
+        "Information Technology"
+      ]
+    }],
+    "languages": [{
+      "language": "Tamil",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "DIY Projects",
+      "keywords": [
+        "Arduino",
+        "Wood Working"
+      ]
+    }]
+  }
