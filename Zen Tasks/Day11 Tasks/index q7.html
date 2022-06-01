@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border-collapse: collapse;
+        }
+        .heading{
+            color: white;
+            
+        }
+        p{
+            background-color: red;
+            margin-left: 80px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        input{
+            width: 80%;
+            border: 0;
+            border-bottom: 3px solid black;
+            padding: 10px;
+
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-size: 18px;
+            background-color: black;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 775px;
+            height: 400px;
+            border: 2px solid black;
+            background-color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <table style="border: 4px solid black; margin: 15px;">
+        <thead>
+            <tr>
+            <td class="heading" colspan="3"><p style="margin: 10px; height: 40px ;">Yes! I want to subscribe to Mag-O-Zine</p></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" name="" id=""></td>
+                <td colspan="3"><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td style="width: 50%;">First Name</td>
+                <td colspan="3">Last Name</td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td colspan="3">Address</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>State</td>
+                <td>Zip</td>
+            </tr>
+            <tr>
+                <td>Subscribe for:</td>
+                <td><input type="checkbox" name="subfor" id="" style="width: 15px;">1 Year($19.95)</td>
+                <td><input type="checkbox" name="subfor" id="" style="width: 15px;">2 Year($35.00)</td>
+            </tr>
+            <tr>
+                <td colspan="3">Send me more information about:</td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="checkbox" name="" id="" style="width: 15px;">Computer-Zine</td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="checkbox" name="" id="" style="width: 15px;">Fishing-Zine</td>
+            </tr>
+            <tr>
+                <td colspan="3"><input type="checkbox" name="" id="" style="width: 15px;">Cat-O-Zine</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>

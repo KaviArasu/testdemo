@@ -1,0 +1,22 @@
+.heading{
+    background-color: antiquewhite;
+}
+
+.h2head{
+    color:blue;
+}
+
+h1{
+    color:green;
+}
+
+
+/* Parent-child selector */
+
+.container1 p{
+    background-color: blue;
+}
+
+.container2 p{
+    background-color: yellow;
+}

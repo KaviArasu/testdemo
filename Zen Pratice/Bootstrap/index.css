@@ -1,0 +1,17 @@
+body{
+    background-color: lightgray;
+
+}
+
+.fa{
+    color: rgb(55, 174, 214);
+}
+.box-part{
+    background-color: white;
+    padding: 60px 10px;
+    margin: 10px 0px;
+    
+}
+.box{
+    padding: 60px 0px;
+}

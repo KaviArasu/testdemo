@@ -1,0 +1,87 @@
+body{
+    background-color: #cad2c5;
+}
+
+.git{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 5px;
+    position: relative;
+    left: 800px;
+    top: 10px;
+    right: 0px;
+    width: 100px;
+    
+}
+
+.search{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+.box{
+    background-color: #2f3d46;
+    justify-content: center;
+    position:relative;
+    bottom: 30px;
+    width: 1917px;
+    height: 100px;
+    left: -5px;
+}
+
+.container{
+    padding: 2rem;
+    
+}
+
+.box3 {
+    border-radius: 20px;
+    background-color: #353535;
+    padding: 1rem;
+    grid-template-columns: 2fr 2fr 2fr; 
+    height: 150px;
+    width: 60%;
+    position: relative;
+    bottom: 80px;
+    }
+
+.grid{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-gap: 3rem;
+}
+
+.box1{
+    border-radius: 15px;
+    background-color: #353535;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height: 650px;
+    width: 300px;
+    transform: translate(-10px, -10px);
+    
+}
+
+.box2{
+    width: 700px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #353535;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    position: relative;
+    left: 225px;
+}
+
+.box6{
+    width: 90%;
+    border-radius: 15px;
+    background-color: #353535;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}

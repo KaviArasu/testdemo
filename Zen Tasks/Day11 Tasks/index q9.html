@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            font-family: Verdana;
+            border: 2px solid black;
+            border-collapse: collapse;
+            height: 50px;
+            width: 300px;
+        }
+        input{
+            margin-left: 40px;
+        }
+        label{
+            margin-left: 20px;
+        }
+        tbody tr:nth-child(2n){
+        background-color: #eee;
+        }
+        thead{
+        position: sticky;
+        top: 0;
+        background-color: #333;
+        color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+    <thead>
+        <tr>
+            <td colspan="3"><b style="margin-left:50px;">Default Values of Form Elements</b></td>
+        </tr>
+    </thead>
+<tbody>
+    <tr style="background-color:#333; color: white ;">
+        <td></td>
+        <td>Form Elements</td>
+        <td>Default Value</td>
+    </tr>
+<tr>
+    <td>1</td>
+    <td><label for="button">Input</label></td>
+    <td><input type=""></td>
+    
+</tr>
+
+<tr>
+    <td>2</td>
+        <td><label for="label">Label</label></td>
+        <td><label for="">Defines a Label</label></td>
+</tr>
+
+<tr>
+    <td>3</td>
+    <td><label for="select">Select</label></td>
+    <td><select name="" id=""></select></td>
+</tr>  
+
+<tr>
+    <td>4</td>
+    <td><label for="textarea">Textarea</label></td>
+    <td><textarea name=""></textarea></td>
+</tr>
+
+<tr>
+    <td>5</td>
+    <td><label for="button">Button</label></td>
+    <td><button>Click Me</button></td>
+</tr>
+
+<tr>
+    <td>6</td>
+    <td><label for="fieldset">Fieldset & Legend</label></td>
+    <td><fieldset>
+        <legend>This is Legend</legend>
+        <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname" value="This area is" ><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Fieldset"><br><br>
+    </fieldset></td>
+</tr>  
+
+<tr>
+    <td>7</td>
+    <td><label for="Datalist">Datalist</label></td>
+    <td>
+        <input list="prolanguages">
+        <datalist id="prolanguages">
+            <option value="JavaScript">
+            <option value="C++">
+            <option value="Swift">
+            <option value="Python">
+        </datalist>
+    </td>
+</tr>    
+</tr>
+</tbody>
+    </table>
+</body>
+</html>
